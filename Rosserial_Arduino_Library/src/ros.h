@@ -55,7 +55,7 @@ namespace ros
 
 #elif defined(SPARK)
 
-  typedef NodeHandle_<ArduinoHardware, 10, 10, 2048, 2048> NodeHandle;
+  typedef NodeHandle_<ArduinoHardware, 25, 25, 512, 512> NodeHandle;
 
 #else
 
